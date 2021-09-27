@@ -13,8 +13,21 @@ Due to government regulation, the system should provide us with the ability to f
 We get the input by reading input.txt directly (you’ll have to create it in your environment) .The file will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
  
 # How to run the File?
-In order to run the file:
-
-run save_output.py file 
+## File Mode: 
+In order to run the file :  run save_output.py file 
 
 This would create an output.txt file with all the commands executed from the input file
+![image](https://user-images.githubusercontent.com/64529469/134845473-293cc233-7c33-4f7a-b423-57bae198d26a.png)
+
+## Interactive Mode: 
+
+py ./Container_Parking.py input.txt
+
+This would print all the executed commands from the input file.
+![image](https://user-images.githubusercontent.com/64529469/134845653-05069584-8477-46e2-a707-20621b04949b.png)
+
+## Command Mode
+
+py ./Container_Parking.py
+This would prompt the user to enter the commands & executes accordingly
+![image](https://user-images.githubusercontent.com/64529469/134845925-f195e18d-6664-4638-aadf-02129a986d88.png)
