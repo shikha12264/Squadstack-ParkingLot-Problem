@@ -12,7 +12,7 @@ Due to government regulation, the system should provide us with the ability to f
 ### Slot numbers of all slots where cars of drivers of a particular age are parked.
 We get the input by reading input.txt directly (you’ll have to create it in your environment) .The file will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
  
-# How to run the File?
+# OUTPUT
 ## File Mode: 
 In order to run the file :  run save_output.py file 
 
