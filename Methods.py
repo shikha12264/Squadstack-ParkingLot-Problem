@@ -158,7 +158,7 @@ def slot_num__by_age(lot, inputage):
                 if parkedVehicle is not None:
                     if parkedVehicle.get_age() == inputage:                                     # invoking method get_age from vehicle class to check any such existing value
                         ptr = True
-                        result += str(parkedVehicle.get_slot()) + ',  ' 
+                        result += str(parkedVehicle.get_slot()) + ',' 
             if not ptr:
                 result = 'No such car parked with driver\'s age {}'.format(inputage)
     else:
