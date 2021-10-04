@@ -20,20 +20,20 @@ We get the input by reading input.txt directly (you’ll have to create it in yo
  
 # OUTPUT
 ## File Mode: 
-In order to run the file :  run save_output.py file 
+In order to run the file : 
+#### run save_output.py file 
 
 This would create an output.txt file with all the commands executed from the input file
 ![image](https://user-images.githubusercontent.com/64529469/134845473-293cc233-7c33-4f7a-b423-57bae198d26a.png)
 
 ## Interactive Mode: 
-
-py ./Container_Parking.py input.txt
+#### Run Command: py ./Container_Parking.py input.txt
 
 This would print all the executed commands from the input file.
 ![image](https://user-images.githubusercontent.com/64529469/134845653-05069584-8477-46e2-a707-20621b04949b.png)
 
 ## Command Mode
 
-py ./Container_Parking.py
+#### Run Command: py ./Container_Parking.py
 This would prompt the user to enter the commands & executes accordingly
 ![image](https://user-images.githubusercontent.com/64529469/134845925-f195e18d-6664-4638-aadf-02129a986d88.png)
